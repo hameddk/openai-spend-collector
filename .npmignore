@@ -1,0 +1,8 @@
+test/
+.github/
+.gitignore
+.editorconfig
+*.log
+.env
+.env.*
+coverage/

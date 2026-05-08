@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "start_time": 1838160000,
+      "end_time": 1838246400,
+      "results": [
+        {
+          "project_id": "proj_main",
+          "line_item": "completions",
+          "amount": { "value": 8.50, "currency": "usd" }
+        }
+      ]
+    },
+    {
+      "start_time": 1838246400,
+      "end_time": 1838332800,
+      "results": [
+        {
+          "project_id": "proj_main",
+          "line_item": "completions",
+          "amount": { "value": 17.25, "currency": "usd" }
+        }
+      ]
+    },
+    {
+      "start_time": 1838332800,
+      "end_time": 1838419200,
+      "results": [
+        {
+          "project_id": "proj_main",
+          "line_item": "image_generation",
+          "amount": { "value": 1.20, "currency": "usd" }
+        }
+      ]
+    }
+  ],
+  "next_page": null
+}

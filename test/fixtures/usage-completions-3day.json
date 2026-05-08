@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "start_time": 1838160000,
+      "end_time": 1838246400,
+      "results": [
+        {
+          "user_id": "user_alice",
+          "project_id": "proj_main",
+          "model": "gpt-4.1-2025-08-01",
+          "input_tokens": 100000,
+          "output_tokens": 40000
+        },
+        {
+          "user_id": "user_bob",
+          "project_id": "proj_main",
+          "model": "gpt-4o-mini",
+          "input_tokens": 30000,
+          "output_tokens": 10000
+        }
+      ]
+    },
+    {
+      "start_time": 1838246400,
+      "end_time": 1838332800,
+      "results": [
+        {
+          "user_id": "user_alice",
+          "project_id": "proj_main",
+          "model": "gpt-4.1-2025-08-01",
+          "input_tokens": 200000,
+          "output_tokens": 80000
+        }
+      ]
+    },
+    {
+      "start_time": 1838332800,
+      "end_time": 1838419200,
+      "results": []
+    }
+  ],
+  "next_page": null
+}

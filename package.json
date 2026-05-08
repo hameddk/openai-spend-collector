@@ -1,0 +1,44 @@
+{
+  "name": "@hameddk/openai-spend-collector",
+  "version": "0.1.0",
+  "description": "Pull real spend and token usage from OpenAI's organization Costs and Usage APIs. Joins per-project cost data with per-user token counts. Pluggable auth, paginated, zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "openai",
+    "gpt",
+    "spend",
+    "cost",
+    "usage",
+    "admin-api",
+    "ai-costs"
+  ],
+  "author": "Hamed Sattari <h@sattari.dk>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hameddk/openai-spend-collector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hameddk/openai-spend-collector/issues"
+  },
+  "homepage": "https://github.com/hameddk/openai-spend-collector#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
